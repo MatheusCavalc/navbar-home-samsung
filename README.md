@@ -1,4 +1,4 @@
-# test-vue3
+# samsung-navbar
 
 ## Project setup
 ```
