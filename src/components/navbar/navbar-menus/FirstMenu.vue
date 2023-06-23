@@ -53,7 +53,7 @@ const listDisplay = ['Smart Signage', 'LED Signage', 'TVs Comerciais']
                     <Transition duration="550" name="nested">
                         <div id="dropdownNavbar" v-show="openLojaOnline" @mouseover="openLojaOnline = true"
                             @mouseleave="openLojaOnline = false"
-                            class="absolute mt-4 right-340 origin-top-right divide-y divide-gray-100 rounded-b-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                            class="absolute mt-4 right-340 origin-top-right divide-y divide-gray-100 rounded-b-lg bg-white shadow-lg border focus:outline-none">
                             <div class="flex text-xs justify-between">
 
                                 <div>
@@ -115,7 +115,7 @@ const listDisplay = ['Smart Signage', 'LED Signage', 'TVs Comerciais']
                     <Transition duration="550" name="nested">
                         <div id="dropdownNavbar" v-show="openTelefonia" @mouseover="openTelefonia = true"
                             @mouseleave="openTelefonia = false"
-                            class="absolute mt-4 right-340 origin-top-right divide-y divide-gray-100 rounded-b-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                            class="absolute mt-4 right-340 origin-top-right divide-y divide-gray-100 rounded-b-lg bg-white shadow-lg border focus:outline-none">
                             <div class="flex justify-between text-xs">
 
                                 <div>
@@ -373,7 +373,7 @@ const listDisplay = ['Smart Signage', 'LED Signage', 'TVs Comerciais']
                     <Transition duration="550" name="nested">
                         <div id="dropdownNavbar" v-show="openInformatica" @mouseover="openInformatica = true"
                             @mouseleave="openInformatica = true"
-                            class="absolute mt-4 right-340 origin-top-right divide-y divide-gray-100 rounded-b-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                            class="absolute mt-4 right-340 origin-top-right divide-y divide-gray-100 rounded-b-lg bg-white shadow-lg border focus:outline-none">
                             <div class="flex text-xs justify-between">
 
                                 <div>
@@ -421,7 +421,7 @@ const listDisplay = ['Smart Signage', 'LED Signage', 'TVs Comerciais']
                     <Transition duration="550" name="nested">
                         <div id="dropdownNavbar" v-show="openMonitores" @mouseover="openMonitores = true"
                             @mouseleave="openMonitores = true"
-                            class="absolute mt-4 right-340 origin-top-right divide-y divide-gray-100 rounded-b-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                            class="absolute mt-4 right-340 origin-top-right divide-y divide-gray-100 rounded-b-lg bg-white shadow-lg border focus:outline-none">
                             <div class="flex justify-between text-xs">
 
                                 <div>
